@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(rgba(255, 241, 241, 0.308), rgba(255, 241,241, 0.308)), url("fondo15.jpg");
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1{
+    color: #008000;
+    -webkit-text-stroke: 1px black;
+    letter-spacing:15px;
+    text-align:center;
+    font-family: honey notes;
+    font-size: 100px;  
+}
+li{
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: disc;
+}
+em{
+    background-color: chartreuse;
+    color: rgb(0, 0, 0);
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.parent{
+    text-align: center;
+}
+p{
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+}

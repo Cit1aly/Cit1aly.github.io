@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO</title>
+        <link rel="StyleSheet" href="ESTILOS FORMULARIO.css" type="text/css">
+    </head>
+    <body background="fondo10.webp">
+        <h1>FORMULARIO</h1>
+        <p>Te invitamos a contestar el siguiente formulario para poder conocerte un poco más tus gustos en cuanto a plantas se refier, gracias a esto podemos mejorar nuestra página y agregar más contenido. Por fecha especial al enviar el formulario se le dará un número con el cual podrá participar en una rifa con increibles premios.</p>
+        <form action="Formulario.php" method="post">
+             <p><em>Ingrese su nombre:</em></p>
+              <input type="text" name="nombre">
+              <br>
+              <br>
+              <p><em>Tipo de planta preferidas:</em></p>
+              <br>
+              <input type="radio" name="radio1" value="Casa y Jardín">Casa y Jardín
+               <br>
+                <input type="radio" name="radio1" value="Cactus">Cactus
+                <br>
+                <br>
+                <p><em>Seleccione su planta favorita:</em></p><br>
+                 <input type="checkbox" name="check1">Orquidea
+                  <br>
+                  <input type="checkbox" name="check2">Rosa
+                  <br>
+                  <input type="checkbox" name="check3">Pata de elefante
+                  <br>
+                   <input type="checkbox" name="check4">Geranio
+                   <br>
+                   <br>
+                   <p><em>¿Qué es lo que más busca en un planta?:</em></p><br>
+                   <textarea name="Características"></textarea>
+                   <br>
+                   <br>
+                   <br>
+                   <input type="submit" value="Enviar">
+                   <input type="reset" value="Limpiar campos" />
+                </form> 
+                <form action="RIFA.php" method="post">
+                    
+                </form>
+            </body>
+            </html>

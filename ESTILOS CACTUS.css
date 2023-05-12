@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(rgba(255, 241, 241, 0.308), rgba(255, 241,241, 0.308)), url("8.jpeg");
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1 {
+    color: rgb(18, 172, 18);
+    -webkit-text-stroke: 1px black;
+    letter-spacing:15px;
+    text-align:center;
+    font-family: honey notes;
+    font-size: 150px; 
+}
+li, p{
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  em{
+    background-color: rgb(17, 196, 17);
+    color: #000000;
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .parent{
+      text-align: center;
+  }
+  

@@ -1,0 +1,16 @@
+body{
+    background-image: url(cac.jpg);
+    background-image: linear-gradient(rgba(255, 241, 241, 0.308), rgba(255, 241,241, 0.308)), url("cac.jpg");
+    background-color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: green;
+    font-style: italic;
+    text-shadow: 
+    3px 3px 1px rgb(113, 121, 113),
+    5px 5px 2px rgb(255, 255, 255),
+    8px 8px 3px rgb(30, 255, 0);
+}
